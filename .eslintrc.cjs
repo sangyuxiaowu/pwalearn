@@ -11,6 +11,7 @@ module.exports = {
   ],
   globals: {
     process: true, // fix 'process' is not defined no-undef
+    module: true,
   },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
